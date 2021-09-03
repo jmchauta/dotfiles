@@ -1,0 +1,12 @@
+#!/bin/bash
+
+alias shop='cd ~/src/github.com/Shopify/shopify/ && color green'
+alias sfr='cd ~/src/github.com/Shopify/storefront-renderer/'
+alias srv='dev server'
+alias sh2='dev hedwig worker'
+alias sh3='dev hedwig scheduler'
+alias sh4='dev hedwig enqueuer'
+alias wh='cd ~/src/github.com/Shopify/wholesale-app && color orange'
+alias wh2='dev jobs'
+alias lcom='git log -p -1'
+alias co='git checkout'
