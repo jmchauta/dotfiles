@@ -15,7 +15,7 @@ echo "--- Installing powerlevel10k"
 sh -c "git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ${ZSH_CUSTOM:-$HOME/.oh-my-zsh/custom}/themes/powerlevel10k"
 
 # Install tig
-if ! command -v rg &> /dev/null; then
+if ! command -v tig &> /dev/null; then
   echo "--- Installing tig"
   sudo apt-get install -y tig
 fi
@@ -41,3 +41,4 @@ echo "--- ~/dotfiles/.zlogin -> ~/.zlogin"
 
 ln -sf ~/dotfiles/.zshrc ~/.zshrc
 echo "--- ~/dotfiles/.zshrc -> ~/.zshrc"
+

@@ -1,5 +1,6 @@
 #!/bin/bash
 
+# dev
 alias shop='cd ~/src/github.com/Shopify/shopify/ && color green'
 alias sfr='cd ~/src/github.com/Shopify/storefront-renderer/'
 alias srv='dev server'
@@ -8,5 +9,23 @@ alias sh3='dev hedwig scheduler'
 alias sh4='dev hedwig enqueuer'
 alias wh='cd ~/src/github.com/Shopify/wholesale-app && color orange'
 alias wh2='dev jobs'
+alias bundle_migrate='bundle install;bin/rails db:migrate'
+alias style='dev style --include-branch-commits'
+alias test='dev test --include-branch-commits'
+alias typecheck='dev typecheck -a'
+
+# dev isospin
+alias status='systemctl list-dependencies spin.target'
+alias shop_logs='journalctl -u proc-shopify--shopify@server.service'
+alias shop_tail='journalctl -u proc-shopify--shopify@server.service --follow --output cat'
+alias shop_restart='iso procs restart shopify--shopify'
+alias web_tail='journalctl -u proc-shopify--web@server.service --follow --output cat'
+alias failed_units='systemctl list-units --failed'
+alias service_restart='systemctl restart'
+alias service_status='systemctl status'
+
+# Misc
 alias lcom='git log -p -1'
 alias co='git checkout'
+alias c='continue'
+alias n='next'
