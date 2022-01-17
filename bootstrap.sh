@@ -32,6 +32,9 @@ echo "--- ~/dotfiles/configs/.p10k_config -> ~/.p10k_config"
 ln -sf ~/dotfiles/configs/.p10k.zsh ~/.p10k.zsh
 echo "--- ~/dotfiles/configs/.p10k.zsh -> ~/.p10k.zsh"
 
+ln -sf ~/dotfiles/configs/.pryrc ~/.pryrc
+echo "--- ~/dotfiles/configs/.pryrc -> ~/.pryrc"
+
 ln -sf ~/dotfiles/configs/.iterm_config ~/.iterm_config
 echo "--- ~/dotfiles/configs/.iterm_config -> ~/.iterm_config"
 
