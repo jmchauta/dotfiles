@@ -25,6 +25,4 @@ alias service_restart='systemctl restart'
 alias service_status='systemctl status'
 
 # Misc
-alias lcom='git log -p -1'
-alias co='git checkout'
 alias bundle_migrate='bundle install;bin/rails db:migrate'
