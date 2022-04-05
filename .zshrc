@@ -9,6 +9,7 @@ source ~/.aliases
 source ~/.iterm_config
 
 export PATH=/usr/local/bin:$PATH
+export EDITOR=vim
 
 # DEV
 if [[ -f /opt/dev/dev.sh ]]; then source /opt/dev/dev.sh; fi
