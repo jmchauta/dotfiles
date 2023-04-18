@@ -4,7 +4,7 @@ if [ "$SPIN" ]; then
   source /etc/zsh/zshrc.default.inc.zsh
 fi
 
-source ~/.p10k_config
+# source ~/.p10k_config
 source ~/.aliases
 source ~/.iterm_config
 
