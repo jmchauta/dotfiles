@@ -31,27 +31,27 @@ echo
 echo "--- Linking dotfiles"
 echo
 
-ln -sf ~/dotfiles/configs/.aliases ~/.aliases
-echo "--- ~/dotfiles/configs/.aliases -> ~/.aliases"
+ln -sf /Users/juanchauta/src/github.com/jmchauta/dotfiles/configs/.aliases ~/.aliases
+echo "--- /Users/juanchauta/src/github.com/jmchauta/dotfiles/configs/.aliases -> ~/.aliases"
 
-ln -sf ~/dotfiles/configs/.p10k_config ~/.p10k_config
-echo "--- ~/dotfiles/configs/.p10k_config -> ~/.p10k_config"
+ln -sf /Users/juanchauta/src/github.com/jmchauta/dotfiles/configs/.p10k_config ~/.p10k_config
+echo "--- /Users/juanchauta/src/github.com/jmchauta/dotfiles/configs/.p10k_config -> ~/.p10k_config"
 
-ln -sf ~/dotfiles/configs/.p10k.zsh ~/.p10k.zsh
-echo "--- ~/dotfiles/configs/.p10k.zsh -> ~/.p10k.zsh"
+ln -sf /Users/juanchauta/src/github.com/jmchauta/dotfiles/configs/.p10k.zsh ~/.p10k.zsh
+echo "--- /Users/juanchauta/src/github.com/jmchauta/dotfiles/configs/.p10k.zsh -> ~/.p10k.zsh"
 
-ln -sf ~/dotfiles/configs/.pryrc ~/.pryrc
-echo "--- ~/dotfiles/configs/.pryrc -> ~/.pryrc"
+ln -sf /Users/juanchauta/src/github.com/jmchauta/dotfiles/configs/.pryrc ~/.pryrc
+echo "--- /Users/juanchauta/src/github.com/jmchauta/dotfiles/configs/.pryrc -> ~/.pryrc"
 
-ln -sf ~/dotfiles/configs/.iterm_config ~/.iterm_config
-echo "--- ~/dotfiles/configs/.iterm_config -> ~/.iterm_config"
+ln -sf /Users/juanchauta/src/github.com/jmchauta/dotfiles/configs/.iterm_config ~/.iterm_config
+echo "--- /Users/juanchauta/src/github.com/jmchauta/dotfiles/configs/.iterm_config -> ~/.iterm_config"
 
 # ZSH
-ln -sf ~/dotfiles/.zlogin ~/.zlogin
-echo "--- ~/dotfiles/.zlogin -> ~/.zlogin"
+ln -sf /Users/juanchauta/src/github.com/jmchauta/dotfiles/.zlogin ~/.zlogin
+echo "--- /Users/juanchauta/src/github.com/jmchauta/dotfiles/.zlogin -> ~/.zlogin"
 
-ln -sf ~/dotfiles/.zshrc ~/.zshrc
-echo "--- ~/dotfiles/.zshrc -> ~/.zshrc"
+ln -sf /Users/juanchauta/src/github.com/jmchauta/dotfiless/.zshrc ~/.zshrc
+echo "--- /Users/juanchauta/src/github.com/jmchauta/dotfiles/.zshrc -> ~/.zshrc"
 
 # Git Aliases
 echo
